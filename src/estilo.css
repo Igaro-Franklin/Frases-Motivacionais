@@ -1,0 +1,44 @@
+body{
+    background-color: #2e2e2e;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    width: 250px;
+    height: 250px;
+    margin-top: 100px;
+    filter: drop-shadow(6px 6px 6px #0f0f0f);
+}
+
+.textoFrase{
+    font-style: italic;
+    color:#dd7b22;
+    text-align: center;
+    font-size: 25px;
+}
+
+.BtnAbrir{
+    width: 200px;
+    height: 40px;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 50px 0;
+    background-color: #dd7b22;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px #462200;
+    transition: .6s;
+}
+
+.BtnAbrir:hover{
+    transform: scale(1.1);
+    background-color: #f3943b;
+}
