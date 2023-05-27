@@ -1,5 +1,14 @@
 body{
-    background-color: #2e2e2e;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(38, 31, 70, 0.486), rgba(0, 0, 0, 0.911)), url(/src/assets/01.jfif);
+    background-position: center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
 }
 
 .container{
@@ -10,35 +19,45 @@ body{
     align-items: center;
 }
 
-.img{
-    width: 250px;
-    height: 250px;
-    margin-top: 100px;
-    filter: drop-shadow(6px 6px 6px #0f0f0f);
+.Titulo{
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: #000b31;
 }
 
 .textoFrase{
+    width: 80%;
     font-style: italic;
-    color:#dd7b22;
+    color:#fff;
     text-align: center;
     font-size: 25px;
 }
 
-.BtnAbrir{
-    width: 200px;
+.divBtn{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.BtnAbrir, .BtnCopiar{
+    width: 130px;
     height: 40px;
     font-size: 22px;
     font-weight: bold;
     margin: 50px 0;
-    background-color: #dd7b22;
     border: none;
-    border-radius: 25px;
+    border-radius: 15px;
     cursor: pointer;
-    box-shadow: 2px 2px 1px #462200;
+    box-shadow: 3px 2px 1px #ffffff;
     transition: .6s;
 }
 
-.BtnAbrir:hover{
-    transform: scale(1.1);
-    background-color: #f3943b;
+.BtnAbrir{
+    background-color: #4649fa;
+}
+
+.BtnCopiar{
+    background-color: #178ff1;
 }
